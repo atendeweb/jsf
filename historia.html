@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<title>Laboratório José Fontes | Análises Clínicas em Feira de Santana - BA</title>
+<meta name="description" content="Laboratório José Fontes: análises clínicas, exames laboratoriais e imunogenética em Feira de Santana, Bahia. Consulte seus resultados online e confira nossas unidades de atendimento.">
+<meta name="keywords" content="laboratório José Fontes, análises clínicas Feira de Santana, exames laboratoriais Bahia, resultados online laboratório, imunogenética, laboratório Feira de Santana">
+<meta name="author" content="Laboratório José Fontes">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://josefontes.com.br/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://josefontes.com.br/">
+<meta property="og:title" content="Laboratório José Fontes | Análises Clínicas em Feira de Santana - BA">
+<meta property="og:description" content="Análises clínicas, exames laboratoriais e imunogenética em Feira de Santana, Bahia. Consulte seus resultados online.">
+<meta property="og:image" content="https://josefontes.com.br/assets/images/adobestock-76252778-2000x1197.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Laboratório José Fontes">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Laboratório José Fontes | Análises Clínicas em Feira de Santana - BA">
+<meta name="twitter:description" content="Análises clínicas, exames laboratoriais e imunogenética em Feira de Santana, Bahia. Consulte seus resultados online.">
+<meta name="twitter:image" content="https://josefontes.com.br/assets/images/adobestock-76252778-2000x1197.jpg">
+
+<link rel="icon" href="https://josefontes.com.br/images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://josefontes.com.br/images/favicon.png" type="image/x-icon">
+
+<!-- JSON-LD structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "Laboratório José Fontes",
+  "url": "https://josefontes.com.br/",
+  "logo": "https://josefontes.com.br/assets/images/image1-272x193.jpg",
+  "image": "https://josefontes.com.br/assets/images/adobestock-76252778-2000x1197.jpg",
+  "description": "Laboratório de análises clínicas em Feira de Santana, Bahia, oferecendo exames laboratoriais, imunogenética e resultados online.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Getúlio Vargas, 744, Centro",
+    "addressLocality": "Feira de Santana",
+    "addressRegion": "BA",
+    "addressCountry": "BR"
+  },
+  "telephone": "+55-75-3221-9365",
+  "email": "atendimento@josefontes.com.br",
+  "sameAs": [
+    "https://www.instagram.com/labjosefontes/",
+    "https://www.facebook.com/labjosefontes"
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --azul-jf: #2A3465;
+    --azul-jf-rgb: 42, 52, 101;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza-overlay: rgb(118, 118, 118);
+    --fonte-base: 'Segoe UI', Roboto, Arial, sans-serif;
+  }
+
+  *{ box-sizing: border-box; }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    margin: 0;
+    font-family: var(--fonte-base);
+    color: #333;
+    line-height: 1.5;
+  }
+
+  a{ text-decoration: none; }
+
+  img{ max-width: 100%; display: block; }
+
+  .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* ===== HEADER / NAV ===== */
+  header.site-header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--branco);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .navbar-brand img{ height: 5.5rem; }
+
+  .nav-links{
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links a{
+    color: #222;
+    font-weight: 600;
+    letter-spacing: .03em;
+    font-size: .95rem;
+    padding: 8px 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color .2s, color .2s;
+  }
+
+  .nav-links a:hover{
+    color: var(--azul-jf);
+    border-bottom-color: var(--azul-jf);
+  }
+
+  .btn-resultados{
+    background: transparent;
+    border: 2px solid #2fa84f;
+    color: #2fa84f;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: .85rem;
+    letter-spacing: .03em;
+    white-space: nowrap;
+    transition: background .2s, color .2s;
+  }
+
+  .btn-resultados:hover{
+    background: #2fa84f;
+    color: #fff;
+  }
+
+  .nav-toggle{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+  }
+
+  .nav-toggle span{
+    width: 26px;
+    height: 3px;
+    background: var(--azul-jf);
+    border-radius: 2px;
+  }
+
+  @media (max-width: 900px){
+    .nav-toggle{ display: flex; }
+    .nav-links{
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      gap: 0;
+      order: 3;
+      background: #fff;
+    }
+    .nav-links.open{ display: flex; }
+    .nav-links a{
+      padding: 12px 4px;
+      border-bottom: 1px solid #eee;
+    }
+    .navbar{ position: relative; }
+    .btn-resultados{ order: 2; margin-left: auto; margin-right: 10px; }
+  }
+
+  /* ===== HERO / CAROUSEL ===== */
+  .hero{
+    position: relative;
+    height: 68vh;
+    min-height: 420px;
+    overflow: hidden;
+    background: #222;
+  }
+
+  .hero-slide{
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .hero-slide.active{ opacity: 1; }
+
+  .hero-slide::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--cinza-overlay);
+    opacity: .35;
+  }
+
+  .hero-dots{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 5;
+  }
+
+  .hero-dots button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .hero-dots button.active{ background: #fff; }
+
+  .hero-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,.35);
+    color: #fff;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .hero-arrow.prev{ left: 16px; }
+  .hero-arrow.next{ right: 16px; }
+  .hero-arrow:hover{ background: rgba(0,0,0,.55); }
+
+  /* ===== RESULTADOS ONLINE ===== */
+  .section-resultados{
+    padding: 60px 0 40px;
+    text-align: center;
+  }
+
+  .section-resultados h2{
+    color: var(--azul-jf);
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin: 0 0 30px;
+  }
+
+  .btn-black{
+    display: inline-block;
+    background: var(--preto);
+    color: #fff;
+    padding: 14px 34px;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .95rem;
+    transition: background .2s, transform .2s;
+  }
+
+  .btn-black:hover{
+    background: #222;
+    transform: translateY(-2px);
+  }
+
+  /* ===== CARDS ===== */
+  .features{
+    padding: 30px 0 70px;
+  }
+
+  .cards-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  @media (max-width: 900px){
+    .cards-row{ grid-template-columns: 1fr; }
+  }
+
+  .card{
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .card-icon{
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: rgba(var(--azul-jf-rgb), .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--azul-jf);
+    font-size: 28px;
+  }
+
+  .card h4{
+    color: var(--azul-jf);
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 0 0 12px;
+    letter-spacing: .02em;
+  }
+
+  .card p{
+    color: var(--azul-jf);
+    font-size: .95rem;
+    margin: 0 0 8px;
+  }
+
+  .card .nota{
+    display: block;
+    font-size: .75rem;
+    color: #666;
+    margin-bottom: 16px;
+  }
+
+  /* ===== FOOTER ===== */
+  footer.site-footer{
+    background: var(--azul-jf);
+    color: #fff;
+    padding: 50px 0 10px;
+  }
+
+  .footer-grid{
+    display: grid;
+    grid-template-columns: 1.2fr .8fr 1.4fr;
+    gap: 30px;
+  }
+
+  @media (max-width: 900px){
+    .footer-grid{ grid-template-columns: 1fr; }
+  }
+
+  .footer-grid strong{ display: block; margin-bottom: 4px; }
+
+  .footer-grid p{ margin: 0 0 20px; font-size: .95rem; line-height: 1.7; }
+
+  .cert-img{
+    width: 50%;
+    min-width: 90px;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,.3));
+  }
+
+  .social-links a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: .95rem;
+  }
+
+  .social-links .icon{
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  .map-wrap{
+    border-radius: 4px;
+    overflow: hidden;
+    min-height: 220px;
+  }
+
+  .map-wrap iframe{
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    border: 0;
+  }
+
+  .footer-lower{
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 0 20px;
+  }
+
+  .footer-lower hr{
+    border: none;
+    border-top: 1px solid rgba(255,255,255,.2);
+    margin: 0 0 16px;
+  }
+
+  .footer-copy{
+    text-align: center;
+    font-size: .8rem;
+    opacity: .7;
+    padding-bottom: 20px;
+  }
+
+  /* ===== WHATSAPP FLOAT ===== */
+  .wa-float{
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .wa-bubble{
+    max-width: 220px;
+    background: #fff;
+    color: #333;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: .85rem;
+    box-shadow: 0 4px 14px rgba(0,0,0,.15);
+    display: none;
+  }
+
+  .wa-bubble.show{ display: block; }
+
+  .wa-btn{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #25D366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.25);
+    transition: transform .2s;
+  }
+
+  .wa-btn:hover{ transform: scale(1.06); }
+
+  /* ===== SKIP LINK / ACCESSIBILITY ===== */
+  .skip-link{
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: #fff;
+    color: #000;
+    padding: 10px 16px;
+    z-index: 3000;
+  }
+
+  .skip-link:focus{ left: 10px; top: 10px; }
+
+  @media (prefers-reduced-motion: reduce){
+    .hero-slide{ transition: none; }
+    html{ scroll-behavior: auto; }
+  }
+</style>
+</head>
+
+<body>
+
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+
+<header class="site-header">
+  <nav class="navbar" aria-label="Navegação principal">
+    <div class="navbar-brand">
+      <a href="#topo" aria-label="Laboratório José Fontes - página inicial">
+        <img src="https://josefontes.com.br/assets/images/image1-272x193.jpg" alt="Laboratório José Fontes">
+      </a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">LABORATÓRIO</a></li>
+      <li><a href="historia.html">HISTÓRIA</a></li>
+      <li><a href="qualidade.html">QUALIDADE</a></li>
+      <li><a href="https://wa.me/557599725789">CONTATO</a></li>
+    </ul>
+
+    <a class="btn-resultados" href="http://fontesfsa.dyndns.org:88/web_laudos/m/login.asp">RESULTADOS ONLINE</a>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+  <!-- ===== HERO CAROUSEL ===== -->
+  <section class="hero" id="topo" aria-label="Galeria de imagens do laboratório">
+    <div class="hero-slide active" style="background-image:url('https://josefontes.com.br/assets/images/adobestock-76252778-2000x1197.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('https://josefontes.com.br/img/fontes.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('https://josefontes.com.br/assets/images/mbr-1920x1274.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('https://josefontes.com.br/assets/images/imagens-1-2000x769.jpg')"></div>
+
+    <button class="hero-arrow prev" id="heroPrev" aria-label="Slide anterior">&#10094;</button>
+    <button class="hero-arrow next" id="heroNext" aria-label="Próximo slide">&#10095;</button>
+
+    <div class="hero-dots" id="heroDots"></div>
+  </section>
+
+  
+  <div class="container" style="max-width:1140px">
+        <div class="row justify-content-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1"></h1>
+                <p class="mbr-text text-justify display-5 pb-3 mbr-fonts-style display-7">Laboratório de Análises Clínicas e Imunogenética <strong>JOSÉ FONTES</strong>, fundado em 1993, foi o primeiro Laboratório de Imunogenética do interior do Norte/Nordeste. É o único de Feira de Santana com certificação do <strong>Projeto Europeu de </strong><br><strong>Qualidade em Química Clínica</strong> - SeguLab e com Produção Científica Premiada.<br><br>Esse Laboratório tem como responsável técnico o <strong>Dr. JOSÉ FONTES</strong>,graduado e pós-graduado, em Tópicos Avançados no Diagnóstico Laboratorial, pela Universidade Federal da Bahia - UFBa. Título de Especialista em Análises Clínicas pela Sociedade Brasileira de Análises Clínicas - SBAC, Membro Certificado pelo Projeto Europeu de Qualidade em Química Clínica (Hospital São Rafael, Itália-Brasil), Comendador (Comenda Mérito Farmacêutico Bioquímico - CRFBa 1147), Trabalho Premiado no XXIX Congresso Brasileiro de Urologia:“Aumento do PSA Livre em Pacientes Renais Crônicos.Impacto sobre os Programas de Rastreamento do Adenocarcinoma Prostático”.
+                </p>                
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div>
+        <strong>Endereço</strong>
+        <p>
+          Av. Getúlio Vargas, 744<br>
+          Centro, Feira de Santana/BA
+        </p>
+        <strong>Contato</strong>
+        <p>
+          Email: atendimento@josefontes.com.br<br>
+          Telefone: 75 3221-9365
+        </p>
+        <a href="https://josefontes.com.br/images/cert-pncq-sbac.jpg" target="_blank" rel="noopener">
+          <img class="cert-img" src="https://josefontes.com.br/images/pncq.png" alt="Certificação PNCQ / SBAC">
+        </a>
+      </div>
+
+      <div class="social-links">
+        <strong>Siga-nos</strong><br><br>
+        <a href="https://www.instagram.com/labjosefontes/" target="_blank" rel="noopener">
+          <span class="icon">&#128247;</span> Instagram
+        </a>
+        <a href="https://www.facebook.com/labjosefontes" target="_blank" rel="noopener">
+          <span class="icon">&#128101;</span> Facebook
+        </a>
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&q=place_id:ChIJZeCrPpA3FAcRYz44LOlmRws"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização do Laboratório José Fontes"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-lower">
+    <hr>
+  </div>
+  <p class="footer-copy">&copy; <span id="ano"></span> Laboratório José Fontes. Todos os direitos reservados.</p>
+</footer>
+
+<!-- ===== WHATSAPP FLUTUANTE ===== -->
+<div class="wa-float">
+  <div class="wa-bubble" id="waBubble">Como posso ajudar?</div>
+  <a class="wa-btn" href="https://wa.me/557599725789" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    &#128222;
+  </a>
+</div>
+
+<script>
+  // Ano dinâmico no rodapé
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  // ===== Menu mobile =====
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', function(){
+    var isOpen = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  navLinks.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', function(){
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // ===== Carrossel (vanilla JS, sem jQuery/Bootstrap) =====
+  (function(){
+    var slides = document.querySelectorAll('.hero-slide');
+    var dotsWrap = document.getElementById('heroDots');
+    var current = 0;
+    var timer;
+
+    slides.forEach(function(_, i){
+      var dot = document.createElement('button');
+      if(i === 0) dot.classList.add('active');
+      dot.setAttribute('aria-label', 'Ir para slide ' + (i + 1));
+      dot.addEventListener('click', function(){ goTo(i); resetTimer(); });
+      dotsWrap.appendChild(dot);
+    });
+
+    var dots = dotsWrap.querySelectorAll('button');
+
+    function goTo(index){
+      slides[current].classList.remove('active');
+      dots[current].classList.remove('active');
+      current = (index + slides.length) % slides.length;
+      slides[current].classList.add('active');
+      dots[current].classList.add('active');
+    }
+
+    function next(){ goTo(current + 1); }
+    function prev(){ goTo(current - 1); }
+
+    function resetTimer(){
+      clearInterval(timer);
+      timer = setInterval(next, 6000);
+    }
+
+    document.getElementById('heroNext').addEventListener('click', function(){ next(); resetTimer(); });
+    document.getElementById('heroPrev').addEventListener('click', function(){ prev(); resetTimer(); });
+
+    resetTimer();
+  })();
+
+  // ===== Balão do WhatsApp =====
+  setTimeout(function(){
+    document.getElementById('waBubble').classList.add('show');
+  }, 1500);
+</script>
+
+</body>
+</html>
